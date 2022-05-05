@@ -1,24 +1,93 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import { PROFILES } from "../constants/profiles";
+import { WORK } from "../constants/work";
+import {
+  Container,
+  Title,
+  Header,
+  Subtitle,
+  Paragraph,
+  SectionTitle,
+  WorkSectionContainer,
+  WorkTitle,
+  WorkDescription,
+  WorkExtra,
+  ProfilesSectionContainer,
+  ProfileItem,
+} from "../styles/index";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
-        <title>Kapil&apos;s Portfolio</title>
-        <meta name="description" content="Kapil's portfolio" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Kapil Choudhari: Full Stack Web Developer</title>
       </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://kapilrc.github.io">My Portfolio</a>
-        </h1>
-      </main>
-
-      <footer className={styles.footer}>
-        
-      </footer>
-    </div>
-  )
+      <Container>
+        <Header>
+          <img
+            src="/kapil-avatar.png"
+            alt="kapilrc"
+            width={180}
+            height={180}
+          />
+          <Subtitle>Hey, I'm Kapil Choudhari</Subtitle>
+          <Title>
+            I develop interactive <span className="accent-line">web-apps</span>{" "}
+            at{" "}
+            <a href="https://www.borngroup.com/" target="_blank">
+              BORN
+            </a>
+          </Title>
+          <Paragraph>
+            I'm an <strong>JavaScript Enthusiast</strong>,{" "}
+            <strong>Full Stack Web Developer developer</strong> <strong>& hungry learner</strong>.
+          </Paragraph>
+        </Header>
+        <section id="work">
+          <SectionTitle align="left">
+            <span className="accent-line">Work (WIP)</span>
+          </SectionTitle>
+          {WORK &&
+            WORK.map((data) => {
+              return (
+                <WorkSectionContainer key={data.title + data.link}>
+                  <WorkTitle>
+                    <a href={data.link} target="_blank">
+                      {data.title}
+                    </a>
+                    <span>
+                      {/* <img
+                        src="/right-arrow.png"
+                        width={18}
+                        height={18}
+                        alt="external-link"
+                      /> */}
+                    </span>
+                  </WorkTitle>
+                  <WorkDescription>{data.description}</WorkDescription>
+                  <WorkExtra>{data.extra}</WorkExtra>
+                </WorkSectionContainer>
+              );
+            })}
+        </section>
+        <section id="profiles">
+          <SectionTitle>
+            <span className="accent-line">Online Presence</span>
+          </SectionTitle>
+          <ProfilesSectionContainer>
+            {PROFILES &&
+              PROFILES.map((profile) => {
+                return (
+                  <ProfileItem key={profile.title + profile.link}>
+                    <a href={profile.link} target="_blank">
+                      {profile.title}
+                    </a>
+                  </ProfileItem>
+                );
+              })}
+          </ProfilesSectionContainer>
+        </section>
+      </Container>
+    </>
+  );
 }
