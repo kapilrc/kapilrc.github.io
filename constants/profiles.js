@@ -6,5 +6,9 @@ export const PROFILES = [
   {
     title: "GitHub",
     link: "https://github.com/kapilrc/",
+  },
+  {
+    title: "Stackoverflow",
+    link: "https://stackoverflow.com/users/4461073/kapilrc"
   }
 ];

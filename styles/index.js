@@ -67,6 +67,23 @@ export const WorkSectionContainer = styled.section`
   margin-bottom: 64px;
 `;
 
+export const Skill = styled.div`
+  display: flex;
+  list-style: none;
+  margin-block: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+
+  > li {
+    padding: 6px 15px;
+    background: ${({ theme }) => theme.colors.royalblue};
+    margin: 10px 10px 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+  }
+`;
+
 export const WorkTitle = styled.h4`
   margin-top: 0px;
   margin-bottom: 16px;

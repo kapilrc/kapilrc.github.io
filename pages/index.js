@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { PROFILES } from "../constants/profiles";
+import { SKILLS } from "../constants/skills";
 import { WORK } from "../constants/work";
 import {
   Container,
@@ -8,6 +9,7 @@ import {
   Subtitle,
   Paragraph,
   SectionTitle,
+  Skill,
   WorkSectionContainer,
   WorkTitle,
   WorkDescription,
@@ -30,7 +32,7 @@ export default function Home() {
             width={180}
             height={180}
           />
-          <Subtitle>Hey, I'm Kapil Choudhari</Subtitle>
+          <Subtitle>Hey, I'm Kapil</Subtitle>
           <Title>
             I develop interactive <span className="accent-line">web-apps</span>{" "}
             at{" "}
@@ -39,10 +41,21 @@ export default function Home() {
             </a>
           </Title>
           <Paragraph>
-            I'm an <strong>JavaScript Enthusiast</strong>,{" "}
-            <strong>Full Stack Web Developer developer</strong> <strong>& hungry learner</strong>.
+            I'm a <strong>JavaScript Enthusiast</strong>,{" "}
+            <strong>Full Stack Web Developer developer</strong> <strong>& a hungry learner</strong>.
           </Paragraph>
         </Header>
+        <section id="skills">
+          <SectionTitle align="left">
+            <span className="accent-line">Skills</span>
+          </SectionTitle>
+          <Skill>
+            {
+              SKILLS?.map(skill => <li key={skill}> {skill} </li>)
+            }
+          </Skill>
+          
+        </section>
         <section id="work">
           <SectionTitle align="left">
             <span className="accent-line">Work (WIP)</span>
