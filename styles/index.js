@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   box-sizing: border-box;
-  padding: 64px 20%;
+  padding: 32px 20%;
   a {
     color: ${({ theme }) => theme.colors.blue};
   }
@@ -18,6 +18,10 @@ export const Container = styled.div`
   @media (max-width: 480px) {
     padding: 64px 16px;
   }
+  .sub-title {
+    font-size: 32px;
+    font-weight: normal;
+  }
 `;
 export const Header = styled.header`
   width: 100%;
@@ -28,9 +32,8 @@ export const Header = styled.header`
 `;
 export const Title = styled.h1`
   text-align: center;
-  max-width: 840px;
   margin-bottom: 48px;
-  font-size: 76px;
+  font-size: 64px;
   line-height: 1.05;
   a {
     color: ${({ theme }) => theme.colors.blue};
@@ -84,6 +87,12 @@ export const Skill = styled.div`
   }
 `;
 
+export const Highlights = styled.ul`
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+`;
+
 export const WorkTitle = styled.h4`
   margin-top: 0px;
   margin-bottom: 16px;
@@ -113,6 +122,12 @@ export const WorkExtra = styled.p`
   font-weight: 400;
   margin-bottom: 16px;
   color: #575c67;
+`;
+
+export const WorkResponsibilities = styled.ul`
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
 `;
 
 export const ProfilesSectionContainer = styled.section`

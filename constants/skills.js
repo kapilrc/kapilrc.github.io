@@ -1,17 +1,17 @@
 export const SKILLS = [
   "JavaScript",
   "React.js",
+  "Next.js",
   "Redux",
   "TypeScript",
   "Node.js",
+  "GraphQL",
   "React Query",
-  "HTML5",
-  "CSS3",
-  "Next.js",
   "RWD",
   "Material UI",
   "SASS",
   "LESS",
   "GIT",
-  "WebPack"
+  "WebPack",
+  "CI/CD deployment"
 ];

@@ -2,6 +2,7 @@ import Head from "next/head";
 import { PROFILES } from "../constants/profiles";
 import { SKILLS } from "../constants/skills";
 import { WORK } from "../constants/work";
+import { HIGHLIGHTS } from "../constants/highlights";
 import {
   Container,
   Title,
@@ -10,6 +11,8 @@ import {
   Paragraph,
   SectionTitle,
   Skill,
+  Highlights,
+  WorkResponsibilities,
   WorkSectionContainer,
   WorkTitle,
   WorkDescription,
@@ -17,6 +20,8 @@ import {
   ProfilesSectionContainer,
   ProfileItem,
 } from "../styles/index";
+import WorkSection from "../components/WorkSection";
+import React from "react";
 
 export default function Home() {
   return (
@@ -34,11 +39,11 @@ export default function Home() {
           />
           <Subtitle>Hey, I'm Kapil</Subtitle>
           <Title>
-            I develop interactive <span className="accent-line">web-apps</span>{" "}
-            at{" "}
+            I develop interactive <br /><span className="accent-line">web-apps</span> at {" "}
             <a href="https://www.borngroup.com/" target="_blank">
               BORN
-            </a>
+            </a>, <span className="sub-title">a part of TechM</span>
+
           </Title>
           <Paragraph>
             I'm a <strong>JavaScript Enthusiast</strong>,{" "}
@@ -54,33 +59,32 @@ export default function Home() {
               SKILLS?.map(skill => <li key={skill}> {skill} </li>)
             }
           </Skill>
-          
+        </section>
+        <section id="highlights">
+          <SectionTitle align="left">
+            <span className="accent-line">Highlights</span>
+          </SectionTitle>
+          <Highlights>
+            {
+              HIGHLIGHTS?.map(r => <li key={r} dangerouslySetInnerHTML={{ __html: r }} />)
+            }
+          </Highlights>
         </section>
         <section id="work">
           <SectionTitle align="left">
             <span className="accent-line">Work (WIP)</span>
           </SectionTitle>
           {WORK &&
-            WORK.map((data) => {
+            WORK.map((data, index) => {
               return (
-                <WorkSectionContainer key={data.title + data.link}>
-                  <WorkTitle>
-                    <a href={data.link} target="_blank">
-                      {data.title}
-                    </a>
-                    <span>
-                      {/* <img
-                        src="/right-arrow.png"
-                        width={18}
-                        height={18}
-                        alt="external-link"
-                      /> */}
-                    </span>
-                  </WorkTitle>
-                  <WorkDescription>{data.description}</WorkDescription>
-                  <WorkExtra>{data.extra}</WorkExtra>
-                </WorkSectionContainer>
-              );
+                <React.Fragment key={index}>
+                  {
+                    data.projects?.map((p, index) => (
+                      <WorkSection key={index} {...p} />
+                    ))
+                  }
+                </React.Fragment>
+              )
             })}
         </section>
         <section id="profiles">
