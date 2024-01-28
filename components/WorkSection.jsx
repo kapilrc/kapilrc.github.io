@@ -5,7 +5,7 @@ const WorkSection = ({title, link, extra, description, responsibilites}) => {
   return (
     <WorkSectionContainer key={title + link}>
       <WorkTitle>
-        <a href={link} target="_blank">
+        Project: <a href={link} target="_blank">
           {title}
         </a>
         {/* <span>
@@ -21,7 +21,7 @@ const WorkSection = ({title, link, extra, description, responsibilites}) => {
       <WorkExtra>{extra}</WorkExtra>
       <WorkResponsibilities>
         {
-          responsibilites?.map(r => <li key={r}> {r} </li>)
+          responsibilites?.map(r => <li key={r} dangerouslySetInnerHTML={{ __html: r }} />)
         }
       </WorkResponsibilities>
     </WorkSectionContainer>

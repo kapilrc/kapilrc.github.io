@@ -3,6 +3,7 @@ import { PROFILES } from "../constants/profiles";
 import { SKILLS } from "../constants/skills";
 import { WORK } from "../constants/work";
 import { HIGHLIGHTS } from "../constants/highlights";
+import { CERTIFICATIONS } from "../constants/certifications";
 import {
   Container,
   Title,
@@ -19,15 +20,19 @@ import {
   WorkExtra,
   ProfilesSectionContainer,
   ProfileItem,
+  FloatContainer,
+  ServiceSection,
+  Certifications,
 } from "../styles/index";
 import WorkSection from "../components/WorkSection";
 import React from "react";
+import CertificationItem from "../components/CertificationItem";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Kapil Choudhari: Full Stack Web Developer</title>
+        <title>Kapil Choudhari: Full Stack Developer</title>
       </Head>
       <Container>
         <Header>
@@ -40,10 +45,11 @@ export default function Home() {
           <Subtitle>Hey, I'm Kapil</Subtitle>
           <Title>
             I develop interactive <br /><span className="accent-line">web-apps</span> at {" "}
-            <a href="https://www.borngroup.com/" target="_blank">
-              BORN
-            </a>, <span className="sub-title">a part of TechM</span>
-
+            <FloatContainer>
+              <a href="https://www.borngroup.com/" target="_blank">
+                <img src="/born-logo.svg" width={111} height={45} />
+              </a>
+            </FloatContainer>
           </Title>
           <Paragraph>
             I'm a <strong>JavaScript Enthusiast</strong>,{" "}
@@ -72,12 +78,18 @@ export default function Home() {
         </section>
         <section id="work">
           <SectionTitle align="left">
-            <span className="accent-line">Work (WIP)</span>
+            <span className="accent-line">Employment</span>
           </SectionTitle>
           {WORK &&
             WORK.map((data, index) => {
               return (
                 <React.Fragment key={index}>
+                  <ServiceSection>
+                    <h2>{data?.company},</h2>
+                    <h3>{data?.position}</h3>
+                    <div style={{ flexGrow: 1 }}></div>
+                    <p>({data?.duration})</p>
+                  </ServiceSection>
                   {
                     data.projects?.map((p, index) => (
                       <WorkSection key={index} {...p} />
@@ -87,6 +99,18 @@ export default function Home() {
               )
             })}
         </section>
+
+        <section id="certifications">
+          <SectionTitle align="left">
+            <span className="accent-line">Licenses &amp; certifications</span>
+          </SectionTitle>
+          <Certifications>
+            {
+              CERTIFICATIONS?.map(c => <CertificationItem key={c.id} {...c} />)
+            }
+          </Certifications>
+        </section>
+
         <section id="profiles">
           <SectionTitle>
             <span className="accent-line">Online Presence</span>
@@ -96,6 +120,9 @@ export default function Home() {
               PROFILES.map((profile) => {
                 return (
                   <ProfileItem key={profile.title + profile.link}>
+                    <div>
+                      <img width="22px" height="22px" src={profile.logo} alt={profile.title} />
+                    </div>
                     <a href={profile.link} target="_blank">
                       {profile.title}
                     </a>
