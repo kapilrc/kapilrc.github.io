@@ -2,7 +2,7 @@ import styled, { keyframes } from "styled-components";
 
 export const Container = styled.div`
   box-sizing: border-box;
-  padding: 32px 20%;
+  padding: 32px 16%;
   a {
     color: ${({ theme }) => theme.colors.blue};
   }
@@ -15,8 +15,8 @@ export const Container = styled.div`
   #github-social-container {
     margin: 8px 0;
   }
-  @media (max-width: 480px) {
-    padding: 64px 16px;
+  @media (max-width: 720px) {
+    padding: 16px;
   }
   .sub-title {
     font-size: 32px;

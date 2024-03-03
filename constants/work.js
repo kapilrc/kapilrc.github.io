@@ -7,7 +7,7 @@ export const WORK = [
       title: "DEI Synergy",
       description:
         "DEI is the market leader of entertainment imaging services and solutions since 2004, capturing priceless moments and transforming them into timeless memories from the attractions industry, including amusement parks and theme parks",
-      link: "https://dei-reactjs-develop.azurewebsites.net/",
+      link: "",
       extra: "",
       duration: "Jan 2022 – Present",
       responsibilites: [
@@ -15,15 +15,12 @@ export const WORK = [
         "<b>Full-stack proficiency</b>: I've not only built a robust boilerplate with above TechStack, but also mastered NextAuth for Google, Facebook, and <u>JWT-based authentication</u>, along with <u>i18n translation</u>, React-hook-form with Yup/Zod for form validation and <u>Payment integration</u>",
         "<b>Redux State Management</b>:  creating dedicated slices for each module to keep everything organized and manageable",
         "<b>Modular architecture</b>: The React component mapping based on Headless CMS empowers content admins to sequence, show, or hide components with ease, ensuring maximum flexibility",
-        "<b>Performance optimization</b>: I'm a stickler for speed and leverage React Query to prefetch static pages for instant loading times",
+        "<b>Performance optimization</b>: leverage React Query to prefetch static pages for instant loading times",
         "<b>Technical leadership</b>: Guiding and mentoring front-end developers is my forte, and I thrive in collaborative environments.",
-        "<b>Code Optimization</b>: Identify and implement performance optimizations to enhance the overall user experience",
         "<b>Collaborative Teamwork</b>: Work closely with cross-functional teams, including BA, PMs, Creative, backend developers, QA to deliver seamless and cohesive solutions.",
-        "<b>Problem Solving</b>: Troubleshoot, debug, and resolve issues to ensure the highest level of reliability and performance",
-        "<b>Code Reviews</b>: Participate in and conduct code reviews, providing constructive feedback to maintain code quality standards.",
-        "<b>Stay Updated</b>: Keep abreast of industry trends, emerging technologies, and best practices to continuously improve and innovate",
+        "<b>Agile</b>: Drive the sprint deliverables in an Agile manner",
+        "<b>Code Reviews & Mentoring</b>: Participate in and conduct code reviews, providing constructive feedback to maintain code quality standards.",
         "<b>Beyond coding</b>: I'm adept at bug fixing, performance optimization, and even extending support to the deployment process. I've actively participated in deployments, gaining valuable hands-on experience in creating and running GitLab CI/CD pipelines using YAML files"
-
       ],
     },
     {
@@ -34,16 +31,15 @@ export const WORK = [
       extra: "",
       duration: "July 21  - Dec 22",
       responsibilites: [
+        "Leading a team size of 6 developers",
         "<b>Technology stack</b>: Next.js, React Query, Redux, RESTFul web services, Material UI, ESLint, Husky Tool, Prettier, Node.js",
         "<b>RFPs, Effort estimations, Sprint Planning</b>",
-        "<b>Technical leadership</b>: Lead and mentor a team of front-end developers, providing guidance and direction on technical matters.",
-        "<b>Coding & Code review</b>: Write high-quality code that is well-tested and maintainable.",
-        "Bug fixing, Performance optimization, Documentation",
+        "Lead a team of 10 developers and drive the sprint deliverables in an Agile manner",
         "Collaboration: Work with other teams, such as product, design, BA and QA, to ensure that front-end applications meet the needs of the business.",
         "MSAL authentication flow, implemented protected and unprotected route in React.",
         "Consuming Mulesoft APIs",
         "Creating reusable React components",
-        "Leading a team size of 6 developers"
+        "Taking interviews for Organization"
       ]
     }]
   },

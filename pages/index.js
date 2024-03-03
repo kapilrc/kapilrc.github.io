@@ -42,9 +42,9 @@ export default function Home() {
             width={180}
             height={180}
           />
-          <Subtitle>Hey, I'm Kapil</Subtitle>
+          <Subtitle>Hey<span>&#128075;</span>, I'm Kapil</Subtitle>
           <Title>
-            I develop interactive <br /><span className="accent-line">web-apps</span> at {" "}
+            I build interactive <br /><span className="accent-line">web-apps</span> at {" "}
             <FloatContainer>
               <a href="https://www.borngroup.com/" target="_blank">
                 <img src="/born-logo.svg" width={111} height={45} />
@@ -53,7 +53,7 @@ export default function Home() {
           </Title>
           <Paragraph>
             I'm a <strong>JavaScript Enthusiast</strong>,{" "}
-            <strong>Full Stack Web Developer developer</strong> <strong>& a hungry learner</strong>.
+            <strong>Full Stack Web Developer</strong> <strong>& a hungry learner</strong>.
           </Paragraph>
         </Header>
         <section id="skills">
@@ -68,7 +68,7 @@ export default function Home() {
         </section>
         <section id="highlights">
           <SectionTitle align="left">
-            <span className="accent-line">Highlights</span>
+            <span className="accent-line">Highlights/ Summary of my current role</span>
           </SectionTitle>
           <Highlights>
             {

@@ -9,10 +9,7 @@ export const SKILLS = [
   "React Query",
   "RWD",
   "MUI/Styled UI/Tailwind CSS",
-  "SASS/LESS",
-  "GIT",
-  "WebPack",
+  "Agile",
   "CI/CD deployment",
-  "SCRUM",
-  "Figma"
+  "Cloud deployments"
 ];
