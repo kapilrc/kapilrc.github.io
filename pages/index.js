@@ -111,9 +111,9 @@ export default function Home() {
         </section>
 
         <section id="profiles">
-          <SectionTitle>
+          {/* <SectionTitle>
             <span className="accent-line">Online Presence</span>
-          </SectionTitle>
+          </SectionTitle> */}
           <ProfilesSectionContainer>
             {PROFILES &&
               PROFILES.map((profile) => {

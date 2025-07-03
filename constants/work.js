@@ -169,5 +169,21 @@ export const WORK = [
         "Leverage knowledge of W3C standards and cross-browser development techniques"
       ]
     }]
+  },
+  {
+    company: "Corporate Bridge Academy (EduCBA)",
+    position: "Software Developer",
+    duration: "Dec 2010 - June 2012",
+    projects: [{
+      title: "ELearning Module",
+      description: "Building ELearning module for Corporate Bridge Academy (EduCBA) which is a leading provider of online financial courses. The module includes features like CFA, FRM, Finance related trainings.",
+      link: "",
+      extra: "",
+      duration: "",
+      responsibilites: [
+        "Convert PSD to HTML, CSS, JavaScript and jQuery.",
+        "Php integration with HTML pages."
+      ]
+    }]
   }
 ];
