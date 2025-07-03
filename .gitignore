@@ -1,0 +1,8 @@
+.next
+.yarn
+node_modules
+out
+.DS_Store
+.env
+# vercel
+.vercel
