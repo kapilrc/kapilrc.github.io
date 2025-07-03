@@ -7,6 +7,6 @@ export const PROFILES = [
   {
     title: "Download Resume",
     logo: "/Resume_logo.jpeg",
-    link: "/KapilChoudhari_JS_React.pdf"
+    link: "/KapilChoudhari_JS_Web_Dev_Tech_Arch.pdf"
   }
 ];
