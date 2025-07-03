@@ -1,15 +1,33 @@
 export const WORK = [
   {
     company: "BORN XDS - TechM",
-    position: "Sr. Team Lead",
+    position: "Technical Architect (Individual FE contributor for 4 projects)",
     duration: "July 2021 – Present",
-    projects: [{
+    projects: [
+      {
+      title: "Admin Shell, BDR, NBA, Rules Engine",
+      description:
+        "This project is a micro-frontend (MFE) admin dashboard. It serves as a container for remote applications in a larger micro-frontend architecture, with style encapsulation and dynamic remote module loading",
+      link: "",
+      extra: "",
+      duration: "Dec 2023 – Present",
+      responsibilites: [
+        "Designed and implemented Micro Frontend solutions with Vite and Webpack Module Federation for complex admin portals.",
+        "Integrated secure MSAL authentication, including token handling, silent refresh, and RBAC.",
+        "Developed reusable component libraries and a custom design system to ensure UI consistency and speed up delivery.",
+        "Set up and maintained CI/CD pipelines, working closely with backend and DevOps teams to deploy on cloud environments.",
+        "Applied modern testing practices (Vitest, React Testing Library, Cypress) and followed a TDD approach for new features.",
+        "Mentored junior developers, conducted technical interviews, and shared best practices through code reviews and regular knowledge sessions.",
+        "Collaborated with BA and PMs to define and align sprint deliverables, driving project success."
+      ]
+      },
+      {
       title: "DEI Synergy",
       description:
         "DEI is the market leader of entertainment imaging services and solutions since 2004, capturing priceless moments and transforming them into timeless memories from the attractions industry, including amusement parks and theme parks",
       link: "",
       extra: "",
-      duration: "Jan 2022 – Present",
+      duration: "Jan 2022 – Nov 2023",
       responsibilites: [
         "<b>Technology stack</b>: Next.js, React Query, Redux, RESTFul web services, GraphQL, Material UI, Prettier, ESLint, Husky Tool",
         "<b>Full-stack proficiency</b>: I've not only built a robust boilerplate with above TechStack, but also mastered NextAuth for Google, Facebook, and <u>JWT-based authentication</u>, along with <u>i18n translation</u>, React-hook-form with Yup/Zod for form validation and <u>Payment integration</u>",
@@ -52,7 +70,7 @@ export const WORK = [
       description: "Toca Mobile app helps soccer players to pair a device with specific Touch Trainers to perform self-training and run exercises",
       link: "https://itunes.apple.com/us/app/keynote/id1204741286?mt=8",
       extra: "",
-      duration: "Jan 2022 – Present",
+      duration: "",
       responsibilites: [
         "React web App - Developed a single page web application using React.js that performed CRUD operations for Admin users",
         "Mobile App - Develop a single page mobile application using Javascript, Mojo, Custom developed H5 library, NodeJS, Gulp (migrating this app in React Native)",
@@ -111,7 +129,7 @@ export const WORK = [
       description: "StoneRiver initiated the PowerSuite UI migration program to replace the existing Flash based UI with HTML5. The new UI will be integrated with the existing PowerSuite services using a brand new Composite layer that will replace the Flash Remoting Gateway in use currently. This project is to demonstrate the feasibility and capability to build UI using HTML5 based framework(s), a brand new Composite layer using RESTful web services and integrate it with the existing business services",
       link: "",
       extra: "",
-      duration: "Jan 2022 – Present",
+      duration: "",
       responsibilites: [
         "Develop a single page application using React.js, JavaScript and RESTful web services.",
         "Manipulating service layers and persisting the same view for different types of customer. ",

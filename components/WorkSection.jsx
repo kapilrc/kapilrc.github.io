@@ -1,12 +1,12 @@
 import React from 'react'
 import { WorkDescription, WorkExtra, WorkResponsibilities, WorkSectionContainer, WorkTitle } from '../styles'
 
-const WorkSection = ({title, link, extra, description, responsibilites}) => {
+const WorkSection = ({title, link, extra, description, duration, responsibilites}) => {
   return (
     <WorkSectionContainer key={title + link}>
       <WorkTitle>
-        Project: <a href={link} target="_blank">
-          {title}
+        {title.includes(',') ? 'Projects' : 'Project'}: <a href={link} target="_blank">
+          {title} {duration && <span>({duration})</span>}
         </a>
         {/* <span>
     <img

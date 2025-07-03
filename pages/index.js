@@ -42,7 +42,7 @@ export default function Home() {
             width={180}
             height={180}
           />
-          <Subtitle>Hey<span>&#128075;</span>, I'm Kapil</Subtitle>
+          <Subtitle>Hello<span>&#128075;</span>, I'm Kapil</Subtitle>
           <Title>
             I build interactive <br /><span className="accent-line">web-apps</span> at {" "}
             <FloatContainer>
@@ -52,8 +52,7 @@ export default function Home() {
             </FloatContainer>
           </Title>
           <Paragraph>
-            I'm a <strong>JavaScript Enthusiast</strong>,{" "}
-            <strong>Full Stack Web Developer</strong> <strong>& a hungry learner</strong>.
+            Architect. Full Stack JavaScript Leader. Cloud-ready. AI-powered effeciency.
           </Paragraph>
         </Header>
         <section id="skills">
@@ -84,7 +83,7 @@ export default function Home() {
             WORK.map((data, index) => {
               return (
                 <React.Fragment key={index}>
-                  <ServiceSection>
+                  <ServiceSection> 
                     <h2>{data?.company},</h2>
                     <h3>{data?.position}</h3>
                     <div style={{ flexGrow: 1 }}></div>

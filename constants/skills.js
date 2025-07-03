@@ -1,15 +1,18 @@
 export const SKILLS = [
-  "JavaScript",
+   "JavaScript",
   "React.js/Next.js",
   "TypeScript",
-  "Redux/RTK",
+  "React Query",
+  "Redux ToolKit",
   "Node.js",
   "Prisma",
   "GraphQL",
-  "React Query",
   "RWD",
-  "MUI/Styled UI/Tailwind CSS",
+  "Component Libraries",
+  "Micro Frontends/Module Federation",
   "Agile",
   "CI/CD deployment",
-  "Cloud deployments"
+  "Cloud deployments",
+  "Unit Testing/TDD",
+  "Leveraging AI tools to increase efficiency"
 ];

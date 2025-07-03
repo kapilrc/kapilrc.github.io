@@ -119,6 +119,10 @@ export const WorkTitle = styled.h4`
   a :hover {
     text-decoration: underline;
   }
+  span {
+    font-size: 16px;
+    font-weight: 400;
+  }
 `;
 
 export const WorkDescription = styled.p`
