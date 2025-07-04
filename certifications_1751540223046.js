@@ -1,0 +1,50 @@
+export const CERTIFICATIONS = [
+  {
+    id: 1,
+    title: "Developing Cloud Applications with Node.js and React",
+    issuer: "edX",
+    date: "April 22",
+    logo: "/edX_logo.jpeg",
+    link: "https://courses.edx.org/certificates/35d3bcd4b00c416fa729aa0f5f6b094f",
+  },
+  {
+    id: 2,
+    title: "React Query - The standard way to make network requests in React",
+    issuer: "Codedamn",
+    date: "March 22",
+    logo: "/Codedamn_logo.jpeg",
+    link: "https://codedamn.com/certificate/verify/5d96cfa50d113d431e498ddefc43110f1ede2cd9",
+  },
+  {
+    id: 3,
+    title: "Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)",
+    issuer: "Udemy",
+    date: "Jan 22",
+    logo: "/Udemy_logo.jpeg",
+    link: "https://courses.edx.org/certificates/35d3bcd4b00c416fa729aa0f5f6b094f",
+  },
+  {
+    id: 4,
+    title: "Typescript with modern React (i.e. hooks, context, suspense)",
+    issuer: "Udemy",
+    date: "Oct 21",
+    logo: "/Eduonix_logo.jpeg",
+    link: "https://www.udemy.com/certificate/UC-df63154e-eb15-4442-ac75-17b0adf89ddf/",
+  },
+  {
+    id: 5,
+    title: "Learn to Build Apps Using Neo4J.",
+    issuer: "Eduonix",
+    date: "Nov 19",
+    logo: "/Udemy_logo.jpeg",
+    link: "https://www.eduonix.com/certificate/81bf8b7478",
+  },
+  {
+    id: 6,
+    title: "Learn JavaScript: Full-Stack from Scratch",
+    issuer: "Udemy",
+    logo: "/Udemy_logo.jpeg",
+    date: "Oct 19",
+    link: "https://www.udemy.com/certificate/UC-AQTXGXL4/",
+  }
+];
