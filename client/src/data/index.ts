@@ -3,8 +3,8 @@ export const CERTIFICATIONS = [
     id: 1,
     title: "Github Copilot, Emerging Leaders, Security Delivery Management",
     issuer: "TechM",
-    date: "April 22",
-    logo: "/edX_logo.jpeg",
+    date: "Yr. 23, 24",
+    logo: "born-logo.svg",
     link: "",
   },
   {

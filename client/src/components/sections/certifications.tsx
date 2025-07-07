@@ -25,7 +25,7 @@ export default function CertificationsSection() {
                     <div className="w-12 h-12 rounded-lg flex items-center justify-center mr-4 overflow-hidden">
                     <img
                       src={cert.logo}
-                      alt={`${cert.issuer} logo`}
+                      alt={`${cert.issuer}`}
                       className="object-contain w-12 h-12"
                     />
                     </div>
@@ -35,7 +35,7 @@ export default function CertificationsSection() {
                   </div>
                 </div>
                 <h4 className="font-semibold text-primary mb-3 line-clamp-3">{cert.title}</h4>
-                <a
+                {cert.link && <a
                   href={cert.link}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -43,7 +43,7 @@ export default function CertificationsSection() {
                 >
                   View Certificate
                   <ExternalLink size={14} className="ml-1" />
-                </a>
+                </a>}
               </FloatingCard>
             ))}
           </div>
