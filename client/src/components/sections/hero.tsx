@@ -14,11 +14,14 @@ export default function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <Card>
             <h1 className="text-5xl lg:text-6xl font-bold text-primary mb-6 leading-tight">
-              Frontend
-              <span className="text-accent ml-4">Architect</span>
+              Kapil
+              <span className="text-accent ml-4">Choudhari</span>
             </h1>
-            <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              14+ years of experience building scalable web applications with React, Next.js, and modern technologies. 
+            <p className="text-bold text-xl text-muted-foreground leading-relaxed">
+              <b>UI Architect | Modern JS Stacks  | Micro Frontends | <br />AI-Powered Productivity</b>   
+            </p>
+            <p className="text-xl text-muted-foreground mt-6 mb-8 leading-relaxed">
+              14+ years of experience building scalable web applications with React, Next.js, TypeScript and modern technologies. 
               Leading teams and architecting solutions that deliver exceptional user experiences.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -45,7 +48,7 @@ export default function HeroSection() {
               className="w-40 h-40 rounded-full object-cover shadow-2xl mb-4"
             />
             <div className="text-center space-y-1">
-              <div>📍 Pune, Remote 📧 <a href="mailto:kapilrc@gmail.com" className="text-blue-600 hover:underline">kapilrc@gmail.com</a></div>
+              <div>📍 Pune, Remote &nbsp; 📧 <a href="mailto:kapilrc@gmail.com" className="text-blue-600 hover:underline">kapilrc@gmail.com</a></div>
               <div>📞 +91 98333 733 53 🌐 <a href='https://www.linkedin.com/in/kapilchoudhari' className="text-blue-600 hover:underline">LinkedIn</a></div>
             </div>
           </Card>

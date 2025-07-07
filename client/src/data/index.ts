@@ -1,6 +1,14 @@
 export const CERTIFICATIONS = [
   {
     id: 1,
+    title: "Github Copilot, Emerging Leaders, Security Delivery Management",
+    issuer: "TechM",
+    date: "April 22",
+    logo: "/edX_logo.jpeg",
+    link: "",
+  },
+  {
+    id: 2,
     title: "Developing Cloud Applications with Node.js and React",
     issuer: "edX",
     date: "April 22",
@@ -8,7 +16,7 @@ export const CERTIFICATIONS = [
     link: "https://courses.edx.org/certificates/35d3bcd4b00c416fa729aa0f5f6b094f",
   },
   {
-    id: 2,
+    id: 3,
     title: "React Query - The standard way to make network requests in React",
     issuer: "Codedamn",
     date: "March 22",
@@ -16,7 +24,7 @@ export const CERTIFICATIONS = [
     link: "https://codedamn.com/certificate/verify/5d96cfa50d113d431e498ddefc43110f1ede2cd9",
   },
   {
-    id: 3,
+    id: 4,
     title: "Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)",
     issuer: "Udemy",
     date: "Jan 22",
@@ -24,7 +32,7 @@ export const CERTIFICATIONS = [
     link: "https://courses.edx.org/certificates/35d3bcd4b00c416fa729aa0f5f6b094f",
   },
   {
-    id: 4,
+    id: 5,
     title: "Typescript with modern React (i.e. hooks, context, suspense)",
     issuer: "Udemy",
     date: "Oct 21",
@@ -32,7 +40,7 @@ export const CERTIFICATIONS = [
     link: "https://www.udemy.com/certificate/UC-df63154e-eb15-4442-ac75-17b0adf89ddf/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Learn to Build Apps Using Neo4J.",
     issuer: "Eduonix",
     date: "Nov 19",
@@ -40,7 +48,7 @@ export const CERTIFICATIONS = [
     link: "https://www.eduonix.com/certificate/81bf8b7478",
   },
   {
-    id: 6,
+    id: 7,
     title: "Learn JavaScript: Full-Stack from Scratch",
     issuer: "Udemy",
     logo: "/Udemy_logo.jpeg",
@@ -161,11 +169,11 @@ export const WORK = [
     }]
   },
   {
-    company: "K2 Technosoft Pvt. Ltd",
+    company: "Bruviti AI - (formerly K2 Technosoft)",
     position: "Team Lead, Cloud",
     duration: "Jan 2017 – July 2021",
     projects: [{
-      title: "Toca Admin Panel and Tocal Mobile Apps",
+      title: "Toca Admin Panel and Tocal Mobile Apps (Continuing on Mobisoft's payroll, I was hired by Bruviti continuing this project)",
       description: "Toca Mobile app helps soccer players to pair a device with specific Touch Trainers to perform self-training and run exercises",
       link: "https://itunes.apple.com/us/app/keynote/id1204741286?mt=8",
       extra: "",
@@ -229,13 +237,12 @@ export const WORK = [
       link: "",
       extra: "",
       duration: "",
-      responsibilites: [
+      responsibilites: [ 
         "Develop a single page application using React.js, JavaScript and RESTful web services.",
         "Manipulating service layers and persisting the same view for different types of customer. ",
         "Form Validations, Table Grid, worked on various components like filters, paging, sorting.",
         "Worked on CRUD functionality to allow the user to manipulate his data.",
         "UI Splitter functionality, loading data in Tree-view and displaying details of customer's participation.",
-        "Built a couple of custom directives in React.js.",
         "Unit testing using Mocha, chaai, Karma.",
         "Managed timelines, team priorities and schedules."
       ]
@@ -281,7 +288,8 @@ export const WORK = [
       duration: "",
       responsibilites: [
         "Convert PSD to HTML, CSS, JavaScript and jQuery.",
-        "Php integration with HTML pages."
+        "Php integration with HTML pages.",
+        "Few other projects Moneytalks.net, educba.com, Elearninglabz.com, Xylemindia.in"
       ]
     }]
   }

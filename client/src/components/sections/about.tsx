@@ -50,14 +50,14 @@ export default function AboutSection() {
             <div className="flex justify-center mt-4">
               {visibleCount < HIGHLIGHTS.length ? (
                 <button
-                  className="px-4 py-2 rounded bg-primary text-white hover:bg-primary/90 transition"
+                  className="px-4 py-2 rounded bg-primary hover:bg-primary/90 text-primary-foreground transition"
                   onClick={handleViewMore}
                 >
                   View More
                 </button>
               ) : (
                 <button
-                  className="px-4 py-2 rounded bg-primary text-white hover:bg-primary/90 transition"
+                  className="px-4 py-2 rounded bg-primary hover:bg-primary/90 text-primary-foreground transition"
                   onClick={handleViewLess}
                 >
                   View Less
