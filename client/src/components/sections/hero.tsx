@@ -1,9 +1,8 @@
 import { Button } from '@/components/ui/button';
-import { FloatingCard } from '@/components/ui/floating-card';
 import { useSmoothScroll } from '@/hooks/use-smooth-scroll';
 import kapilAvatarPath from '@assets/kapil-avatar_1751540504716.png';
-import kapilResume from '@assets/KapilChoudhari_JS_Web_Dev_Tech_Arch.pdf';
 import { Card } from '../ui/card';
+import { PROFILES } from '@/data';
 
 export default function HeroSection() {
   const { scrollToSection } = useSmoothScroll();
@@ -33,7 +32,7 @@ export default function HeroSection() {
               </Button>
               <Button
                 variant="outline"
-                onClick={() => window.open(kapilResume, '_blank')}
+                onClick={() => window.open(PROFILES[1].link, '_blank')}
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
               >
                 Download Resume
