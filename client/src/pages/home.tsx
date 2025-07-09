@@ -10,7 +10,7 @@ import Footer from '@/components/sections/footer';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background px-2 sm:px-8 md:px-16">
       <Navigation />
       <HeroSection />
       {/* <ContactBar /> */}

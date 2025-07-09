@@ -43,7 +43,7 @@ const navItems = [
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 navbar-blur border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 navbar-blur border-b border-border px-3">
       <div className="container mx-auto max-w-6xl py-4">
         <div className="flex items-center justify-between">
           <div className="font-bold text-xl text-primary cursor-pointer" onClick={() => handleNavClick('hero')}>KC</div>

@@ -8,11 +8,11 @@ export default function HeroSection() {
   const { scrollToSection } = useSmoothScroll();
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center pt-20 px-6">
+    <section id="hero" className="min-h-screen flex items-center justify-center pt-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <Card>
-            <h1 className="text-5xl lg:text-6xl font-bold text-primary mb-6 leading-tight">
+            <h1 className="text-4xl lg:text-6xl font-bold text-primary mb-6 leading-tight">
               Kapil
               <span className="text-accent ml-4">Choudhari</span>
             </h1>

@@ -5,7 +5,7 @@ import { CERTIFICATIONS } from '@/data';
 export default function CertificationsSection() {
   return (
     <section id="certifications" className="py-20 bg-card">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4 xl:px-6">
         <div className="max-w-6xl mx-auto">
           <FloatingCard className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-6">Certifications</h2>

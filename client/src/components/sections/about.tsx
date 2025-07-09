@@ -22,7 +22,7 @@ export default function AboutSection() {
   
   return (
     <section id="about" className="py-20 bg-secondary">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <FloatingCard className="text-center mb-8">
             <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-6">About Me</h2>
