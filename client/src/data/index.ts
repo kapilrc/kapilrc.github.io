@@ -1,6 +1,22 @@
 export const CERTIFICATIONS = [
   {
     id: 1,
+    title: "Claude Code 101",
+    issuer: "TechM",
+    date: "Yr. 23, 24",
+    logo: "born-logo.svg",
+    link: "",
+  },
+  {
+    id: 1,
+    title: "Github Copilot, Emerging Leaders, Security Delivery Management",
+    issuer: "TechM",
+    date: "May 20",
+    logo: "born-logo.svg",
+    link: "",
+  },
+  {
+    id: 1,
     title: "Github Copilot, Emerging Leaders, Security Delivery Management",
     issuer: "TechM",
     date: "Yr. 23, 24",
@@ -87,22 +103,24 @@ export const PROFILES = [
 ];
 
 export const SKILLS = [
-  "JavaScript",
-  "React.js/Next.js",
-  "TypeScript",
-  "React Query",
-  "Redux ToolKit",
-  "Node.js",
-  "Prisma",
-  "GraphQL",
-  "RWD",
-  "Component Libraries",
+  "Agentic Workflows & Multi-Agent Systems",
+  "Model Context Protocol (MCP) Server Integration",
+  "AI Orchestration & Automation Loops",
+  "LLM Integration & Prompt Engineering",
+  "Developer Experience (DX) Automation",
+  "TypeScript & Advanced JavaScript (ES6+)",
+  "React.js & Next.js (SSR/ISR)",
+  "State Management (Redux Toolkit, React Query)",
+  "Node.js & Prisma ORM",
+  "GraphQL & REST API Gateways",
+  "Design Systems & Token-Driven UI",
+  "Enterprise UI Infrastructure",
   "Micro Frontends/Module Federation",
-  "Agile",
+  "Agile Scale Delivery & Technical Governance",
   "CI/CD deployment",
-  "Cloud deployments",
-  "Unit Testing/TDD",
-  "Leveraging AI tools to increase efficiency"
+  "Cloud Architecture (AWS / Azure)",
+  "Test-Driven Development (TDD) via Vitest/Jest",
+  "AI-Assisted SDLC Acceleration or Autonomous Validation Loops"
 ];
 
 export const WORK = [
