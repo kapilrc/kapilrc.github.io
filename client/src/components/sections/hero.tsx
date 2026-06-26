@@ -17,11 +17,10 @@ export default function HeroSection() {
               <span className="text-accent ml-4">Choudhari</span>
             </h1>
             <p className="text-bold text-xl text-muted-foreground leading-relaxed">
-              <b>UI Architect | Modern JS Stacks  | Micro Frontends | <br />AI-Powered Productivity</b>   
+              <b>Principal Frontend Architect | AI-Driven Systems & Agentic Workflows | Micro Frontend</b>   
             </p>
             <p className="text-xl text-muted-foreground mt-6 mb-8 leading-relaxed">
-              14+ years of experience building scalable web applications with React, Next.js, TypeScript and modern technologies. 
-              Leading teams and architecting solutions that deliver exceptional user experiences.
+              Next.js/TypeScript platforms to autonomous AI Systems. Expert in orchestrating agentic workflows, custom MCP server integrations, and multi-step validation loops that accelerate the SDLC while maintaining uncompromising enterprise security and performance.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button

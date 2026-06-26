@@ -27,8 +27,7 @@ export default function AboutSection() {
           <FloatingCard className="text-center mb-8">
             <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-6">About Me</h2>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              A passionate Frontend Architect with expertise in building scalable, performance-optimized web applications 
-              and leading development teams to deliver exceptional user experiences.
+              A passionate Frontend Architect with 14+ years of experience engineering scalable, high-performance web applications and leading technical teams. Expert in modern UI stacks (React, Next.js, TS) and next-generation AI orchestration, including custom MCP server integrations and agentic workflows.
             </p>
           </FloatingCard>
 
